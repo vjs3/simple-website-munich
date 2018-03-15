@@ -1,0 +1,76 @@
+body {
+  margin: 15px;
+  padding: 0px;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  color: black;
+  background: lightblue;
+}
+
+section, header {
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 12px;
+  text-align: center;
+  padding: 15px 40px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+ul, ol {
+  margin: 10px 0;
+  padding-left: 40px;
+}
+
+img {
+  border: 1px solid;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+ clear: both;
+ position: relative;
+ margin-top: -3px;
+}
+
+/* Class names are used in the CSS to style related elements */
+
+.caption {
+  text-align: center;
+  font-size: 70%;
+}
+
+.subheader {
+  line-height: 30px;
+  text-align: left;
+}
+
+.facts-munich {
+  float: left;
+  line-height: 30px;
+  text-align: left;
+}
+
+.munich-city-img {
+  float: center;
+  line-height: 12pt;
+  text-align: left;
+}
+
+.places-to-visit {
+  float: right;
+  line-height: 30px;
+  text-align: left;
+}
